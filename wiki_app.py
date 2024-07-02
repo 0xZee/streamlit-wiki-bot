@@ -32,8 +32,8 @@ def reset_message_session():
 
 # Sidebar
 with st.sidebar:
+    st.code("https://github.com/0xZee/")
     "[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://github.com/0xZee/wiki-bot/)"
-    st.caption("https://github.com/0xZee/")
     app_info = {
         "📚 🤖": "Ask & RAG specific Wikipedia Page",
         "Inference": "Groq LPU",
