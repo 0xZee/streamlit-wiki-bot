@@ -47,7 +47,7 @@ with st.sidebar:
 
 # Main page
 st.subheader(
-    "🌐 :orange-background[Ask Wiki] :red-background[ChatBot] 📚", divider="grey")
+    "🌐 :orange-background[Ask Wiki] :red-background[ChatBot] 📚", divider="red")
 
 # User Input container
 with st.container(border=True):
