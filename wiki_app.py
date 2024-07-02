@@ -26,7 +26,7 @@ if "response_gen" not in st.session_state:
 
 def reset_message_session():
     hello_message = {"role": "assistant",
-                     "content": ":sparkles: Hello, Posez moi une question sur la page Wikipedia ? :star:"}
+                     "content": "👋 Hello, Que souhaitez-vous savoir concernant la page Wikipedia mentionnée ? :sparkles: "}
     st.session_state["messages"] = [hello_message]
 
 
@@ -35,7 +35,7 @@ with st.sidebar:
     "[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://github.com/0xZee/groq-ragbot/)"
     st.code("https://github.com/0xZee/")
     app_info = {
-        "📚 🤖": "Ask specific Wikipedia Page",
+        "📚 🤖": "Ask & RAG specific Wikipedia Page",
         "Inference": "Groq LPU",
         "LLM": "llama3-8b",
         "framework": "llama_index",
