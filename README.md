@@ -2,11 +2,11 @@
 
 Welcome to the **Ask Wiki Streamlit App**! This application leverages cutting-edge technologies to provide users with an interactive experience for querying specific Wikipedia pages.
 
-!alt text
+## wiki-app-screenshot
 
-<!-- To resize the image, use HTML instead of Markdown -->
-<img src="wiki-app-screenshot.png" alt="alt text" title="Image Title" width="400" height="700"/>
-
+<div align="center">
+  <img src="wiki-app-screenshot.png" alt="Wiki App Screenshot" title="Image Title" width="450" height="600"/>
+</div>
 
 ## Features
 
