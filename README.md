@@ -2,6 +2,12 @@
 
 Welcome to the **Ask Wiki Streamlit App**! This application leverages cutting-edge technologies to provide users with an interactive experience for querying specific Wikipedia pages.
 
+!alt text
+
+<!-- To resize the image, use HTML instead of Markdown -->
+<img src="URL" alt="alt text" title="Image Title" width="200" height="200"/>
+
+
 ## Features
 
 - **Interactive Chatbot**: Engage with a chatbot that can fetch information from Wikipedia based on your queries.
