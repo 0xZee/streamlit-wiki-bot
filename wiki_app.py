@@ -52,7 +52,7 @@ st.subheader(
 # User Input container
 with st.container(border=True):
     user_input = st.text_input(
-        "🤖 Recherche Pages Wikipedia", placeholder="Leo Messi, Mission Appolo...")
+        "🤖 Recherche Pages Wikipedia", placeholder="Informatique Quantique, Leo Messi, Dune...")
     if user_input:
         results = wikipedia.search(user_input, results=9)
         if results:
