@@ -57,7 +57,7 @@ with st.container(border=True):
         results = wikipedia.search(user_input, results=9)
         if results:
             st.session_state["topic"] = st.selectbox(
-                "📌 Pages Wikipedia Disponibles :", results)
+                "📑 Pages Wikipedia Disponibles :", results)
     # x1, x2 = st.columns(2)
     # wk_phys = x1.button("Physique Quantique", use_container_width=True)
     # wk_france = x2.button("Révolution Française",
@@ -67,7 +67,7 @@ with st.container(border=True):
     # if wk_france:
     #    st.session_state.topic = "Révolution Française"
 
-    submit = st.button("Index Wikipedia Page",
+    submit = st.button("♻️ Index Wikipedia Page",
                        use_container_width=True, type="secondary")
 
 # Process
