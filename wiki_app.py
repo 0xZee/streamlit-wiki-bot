@@ -54,7 +54,8 @@ with st.container(border=True):
     user_input = st.text_input(
         "🤖 Recherche Pages Wikipedia", placeholder="Informatique Quantique, Leo Messi, Dune...")
     if user_input:
-        results = wikipedia.search(user_input, results=9)
+        wikipedia.set_lang("fr")
+        results = wikipedia.search(user_input, suggestion=False, results=9)
         if results:
             st.session_state["topic"] = st.selectbox(
                 "📑 Pages Wikipedia Disponibles :", results)
