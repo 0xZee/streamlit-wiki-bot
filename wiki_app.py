@@ -68,7 +68,7 @@ with st.container(border=True):
     #    st.session_state.topic = "Révolution Française"
 
     submit = st.button("Index Wikipedia Page",
-                       use_container_width=True, type="primary")
+                       use_container_width=True, type="secondary")
 
 # Process
 if (submit and (st.session_state["topic"] is not None)):
