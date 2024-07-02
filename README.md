@@ -5,7 +5,7 @@ Welcome to the **Ask Wiki Streamlit App**! This application leverages cutting-ed
 !alt text
 
 <!-- To resize the image, use HTML instead of Markdown -->
-<img src="wiki-app-screenshot.png" alt="alt text" title="Image Title" width="200" height="200"/>
+<img src="wiki-app-screenshot.png" alt="alt text" title="Image Title" width="400" height="700"/>
 
 
 ## Features
